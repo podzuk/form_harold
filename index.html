@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+ 
+    <title>Harold Finch</title>
+</head>
+<body>
+    <div class="form">
+        <div class="form__header">
+                <div class="form__header_text">Harold Finch</div>
+                <div class="form__your">Your Total</div>
+                <div class="form__prise">$88</div>
+        </div>
+
+        <div class="form__content">
+                    <label class="form__credit_card">
+                            Credit card number<input type="number">
+                    </label>
+
+
+                <div class="form__mounth">
+                            Expiration date</br> 
+                            <select class="form__select_mounth" name="mounth">
+                            <option>Mounth</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                    </select>
+                    <select class="form__year" name="year" required>
+                            <option>Year</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            </select>
+                </div>
+
+                <label class="form__cvv">
+                    CVV</br><input class="form__input_cvv" type="number">
+                    <div class="form__cvv_text">3 or 4 digits - view example</div>
+                </label>
+
+                <div class="form__line"></div>
+
+                <button class="form__button" name="pay">Pay</button>
+
+                <div class="form__footer">Cancel order</div>
+        </div>
+    </div>
+</body>
+</html>

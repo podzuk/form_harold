@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
+.form {
+  background-color: white;
+  width: 340px;
+  height: 570px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+
+.form__header {
+  width: 100%;
+  height: 12%;
+  background-color: #efe5aa;
+  position: relative;
+  border-radius: 5px;
+}
+
+.form__prise {
+  float: right;
+  font-size: 36px;
+  font-family: "Montserrat";
+  color: rgb(99, 117, 112);
+  line-height: 1.7;
+  margin-right: 10px;
+}
+.form__header_text {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(110, 127, 123);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.form__your {
+  display: inline-block;
+  font-size: 10px;
+  font-family: "Montserrat";
+  color: rgb(166, 162, 141);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -90px;
+}
+
+.form__content {
+  width: 80%;
+  height: 88%;
+}
+
+.form__credit_card {
+  position: absolute;
+  margin-top: 20%;
+  width: 80%;
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(158, 171, 173);
+  text-align: left;
+  font-weight: bold;
+}
+
+.form__mounth {
+  position: absolute;
+  display: inline-block;
+  margin-top: 45%;
+  width: 80%;
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(158, 171, 173);
+  font-weight: bold;
+}
+
+.form__select_mounth {
+  display: inline-block;
+  margin-top: 3%;
+  width: 55%;
+  height: 3vw;
+}
+
+.form__year {
+  display: inline-block;
+  width: 35%;
+  height: 3vw;
+  margin-left: 8%;
+}
+
+input[type="number"] {
+  margin-top: 2%;
+  width: 98%;
+  font-size: 13px;
+  background: #f6f6f6;
+  border: 2px solid #b3c1c4;
+  color: gray;
+  caret-color: #eecc68;
+  font-family: "Montserrat";
+  color: rgb(114, 127, 130);
+  line-height: 1.2;
+  height: 2.5vw;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  border: 2px solid #f6f6f6;
+}
+
+select {
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  background: #f6f6f6;
+  border: 2px solid #b3c1c4;
+  color: gray;
+  caret-color: #eecc68;
+  font-family: "Montserrat";
+  color: rgb(114, 127, 130);
+  line-height: 1.2;
+  text-align: left;
+  border: 2px solid #b3c1c4;
+}
+
+select:focus {
+  border: 2px solid #f6f6f6;
+}
+
+.form__content {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.form__cvv {
+  position: absolute;
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(158, 171, 173);
+  margin-top: 73%;
+  font-weight: bold;
+  width: 80%;
+}
+input.form__input_cvv {
+  float: left;
+  height: 3vw;
+  width: 7vw;
+}
+
+.form__cvv_text {
+  margin-top: 1.6vw;
+  margin-left: 7.9vw;
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(158, 171, 173);
+}
+
+.form__line {
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background-color: #e3e6e8;
+  margin-top: 103%;
+}
+
+.form__button {
+  margin-top: 143%;
+  width: 100%;
+  height: 3.6vw;
+  background-color: #26b167;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  border: none;
+}
+
+.form__footer {
+  line-height: 5;
+  margin-left: 35%;
+  display: inline;
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(158, 171, 173);
+  border-bottom: 1px solid rgb(158, 171, 173);
+}
